@@ -40,6 +40,7 @@ public class Main {
                 System.out.println("");
                 Piramide piramide = new Piramide(areabase2, alturapiramide);
                 System.out.println("Volume da piramide: " + piramide.volume5());
+                break;
 
             case 4 :
                 System.out.println("Digite a area da base do Prisma:");
@@ -49,6 +50,7 @@ public class Main {
                 System.out.println("");
                 Prisma prisma = new Prisma(areabase3, alturaprisma);
                 System.out.println("Volume da piramide: " + prisma.volume6());
+                break;
         }
     }
 }
